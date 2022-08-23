@@ -14,7 +14,7 @@ class Horse extends Animal1 {
 
 public class Override{
     public static void main(String[] args){
-        Horse h = new Horse();
+        Animal1 h = new Horse();
         h.eat();
     }
 }
