@@ -34,7 +34,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StrIntCheck">
+  <component name="RunManager" selected="Application.ConstOverload">
     <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.training.C" />
       <module name="NCG-training" />
@@ -50,6 +50,19 @@
     </configuration>
     <configuration name="CheckMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.training.CheckMail" />
+      <module name="NCG-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstOverload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.training.ConstOverload" />
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -87,26 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.training.Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.Abstraction" />
-      <module name="NCG-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstOverload" />
         <item itemvalue="Application.StrIntCheck" />
         <item itemvalue="Application.StringLengthHash" />
         <item itemvalue="Application.CheckMail" />
         <item itemvalue="Application.Chk_mail_validity" />
-        <item itemvalue="Application.com.example.training.Abstraction" />
       </list>
     </recent_temporary>
   </component>
