@@ -8,7 +8,7 @@ public class TrimStr {
     public static List<String> TrimStr() {
         List<String> space_str = new ArrayList<>();
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter strings with whitespaces: ");
+        System.out.println("Enter strings with whitespaces (Type 'stop' to finish giving inputs): ");
         while (true) {
             String str = s.nextLine();
 
