@@ -23,5 +23,5 @@ public class RandomArrayList {
         System.out.println("Randomised List : \n" + random);
 //        System.out.printf("Randomised Strings : \n%s", String.join("\n", random));
     }
-// https://clips.twitch.tv/IncredulousArbitraryToadBatChest-DX9M76ehevWds8GW
+
 }
