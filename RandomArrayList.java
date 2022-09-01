@@ -10,7 +10,7 @@ public class RandomArrayList {
     public static void main(String[] args) {
         ArrayList<String> random = new ArrayList<>();
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter a string : ");
+        System.out.println("Enter strings : ");
         while (true){
             String str = s.nextLine();
 
