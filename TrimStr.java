@@ -26,4 +26,5 @@ public class TrimStr {
         System.out.println("List with whitespaces removed : \n" + string_list);          // Instead of printf so that we can see whitespaces are removed using .trim()
 //        System.out.printf("User Input Data:\n%s", String.join("\n", string_list));
     }
+
 }
