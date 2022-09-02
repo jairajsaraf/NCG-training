@@ -18,6 +18,5 @@ final class Box1
     public int getVolume()
     {
         return volume;
-
     }
 }
