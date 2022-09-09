@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="27d407bb-23e1-4299-8f88-6ec5f43b793b" name="Changes" comment="Create StringMethods.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tight_coupling.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tight_coupling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Override.java" beforeDir="false" afterPath="$PROJECT_DIR$/Override.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Animal1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Animal1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Horse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Horse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Override.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Override.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Test$Nums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Test2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +46,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="RandomArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.RandomArrayList" />
+  <component name="RunManager" selected="Application.NameThread">
+    <configuration name="NameThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.training.NameThread" />
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrimStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.TrimStr" />
+    <configuration name="Volume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.training.Volume" />
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.NameThread" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Volume" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.demo" />
-        <item itemvalue="Application.TrimStr" />
-        <item itemvalue="Application.RandomArrayList" />
       </list>
     </recent_temporary>
   </component>

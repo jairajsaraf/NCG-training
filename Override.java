@@ -1,6 +1,7 @@
 package com.example.training;
 
 class Animal1 {
+
     public void eat() {
         System.out.println("Generic Animal Eating Generically");
     }

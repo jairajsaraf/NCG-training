@@ -1,15 +1,9 @@
 package com.example.training;
 
 public class Test {
-    enum Nums{BIG, HUGE, OVERWHELMING};
-
-
     public static void main(String[] args) {
-        Nums n = Nums.BIG;
-        System.out.println(n);
+        for(int i = 0; i >= 0 ; i++){
+            System.out.println("Hello World");
+        }
     }
-}
-
-class Test2 extends Test{
-
 }
