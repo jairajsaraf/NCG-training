@@ -21,6 +21,5 @@ class RunIt{
     public static void main(String[] args) {
         AnonOuter ao = new AnonOuter();
         ao.ai.car();
-        
     }
 }
