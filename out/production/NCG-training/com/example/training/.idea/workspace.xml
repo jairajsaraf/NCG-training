@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27d407bb-23e1-4299-8f88-6ec5f43b793b" name="Changes" comment="Create StringMethods.java">
-      <change afterPath="$PROJECT_DIR$/COW_arrList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunReEntrant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NCG-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NCG-training.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/NCG-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/NCG-training.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/jasaraf/IdeaProjects/JScoin",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.MyOuter">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.Driver" />
+}]]></component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="RunIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.training.RunIt" />
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyOuter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.MyOuter" />
+    <configuration name="RunReEntrant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.training.RunReEntrant" />
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.SimpleQueue" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.training.Test" />
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.training.COW_arrList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.COW_arrList" />
+    <configuration name="TestJUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +92,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.training" />
+      <option name="MAIN_CLASS_NAME" value="com.example.training.TestJUnit" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.training.ConcHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.ConcHashMap" />
+    <configuration name="TestJUnit.testSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -107,17 +107,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.training" />
+      <option name="MAIN_CLASS_NAME" value="com.example.training.TestJUnit" />
+      <option name="METHOD_NAME" value="testSomething" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyOuter" />
-        <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.SimpleQueue" />
-        <item itemvalue="Application.com.example.training.COW_arrList" />
-        <item itemvalue="Application.com.example.training.ConcHashMap" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.TestJUnit.testSomething" />
+        <item itemvalue="JUnit.TestJUnit" />
+        <item itemvalue="Application.RunIt" />
+        <item itemvalue="Application.RunReEntrant" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +158,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create StringMethods.java" />
     <option name="LAST_COMMIT_MESSAGE" value="Create StringMethods.java" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NCG_training$TestJUnit.ic" NAME="TestJUnit Coverage Results" MODIFIED="1663154345492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.training.*</FILTER>
+    </SUITE>
   </component>
 </project>
