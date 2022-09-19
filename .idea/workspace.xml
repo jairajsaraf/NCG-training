@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27d407bb-23e1-4299-8f88-6ec5f43b793b" name="Changes" comment="Create StringMethods.java" />
+    <list default="true" id="27d407bb-23e1-4299-8f88-6ec5f43b793b" name="Changes" comment="Create StringMethods.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/NCG-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NCG-training/com/example/training/NCG-training.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,22 +60,9 @@
       <recent name="com.example.training" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DebuggerMain">
+  <component name="RunManager" selected="JUnit.BankAccountTest.isChecking_true">
     <configuration name="DebuggerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.training.DebuggerMain" />
-      <module name="NCG-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.training.RunIt" />
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -93,22 +87,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit">
       <module name="NCG-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="com.example.training" />
-      <option name="MAIN_CLASS_NAME" value="com.example.training.TestJUnit" />
+      <option name="MAIN_CLASS_NAME" value="com.example.training.BankAccountTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJUnit.testSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccountTest.deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NCG-training" />
       <extension name="coverage">
         <pattern>
@@ -117,20 +106,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.training" />
-      <option name="MAIN_CLASS_NAME" value="com.example.training.TestJUnit" />
-      <option name="METHOD_NAME" value="testSomething" />
+      <option name="MAIN_CLASS_NAME" value="com.example.training.BankAccountTest" />
+      <option name="METHOD_NAME" value="deposit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankAccountTest.getBal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NCG-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.training" />
+      <option name="MAIN_CLASS_NAME" value="com.example.training.BankAccountTest" />
+      <option name="METHOD_NAME" value="getBal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest.isChecking_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NCG-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.training" />
+      <option name="MAIN_CLASS_NAME" value="com.example.training.BankAccountTest" />
+      <option name="METHOD_NAME" value="isChecking_true" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DebuggerMain" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.BankAccountTest" />
+      <item itemvalue="JUnit.BankAccountTest.deposit" />
+      <item itemvalue="JUnit.BankAccountTest.getBal" />
+      <item itemvalue="JUnit.BankAccountTest.isChecking_true" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BankAccountTest.isChecking_true" />
+        <item itemvalue="JUnit.BankAccountTest.getBal" />
+        <item itemvalue="JUnit.BankAccountTest.deposit" />
         <item itemvalue="Application.DebuggerMain" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.TestJUnit.testSomething" />
-        <item itemvalue="JUnit.TestJUnit" />
-        <item itemvalue="Application.RunIt" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +196,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create StringMethods.java" />
     <option name="LAST_COMMIT_MESSAGE" value="Create StringMethods.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NCG_training$TestJUnit.ic" NAME="TestJUnit Coverage Results" MODIFIED="1663154345492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

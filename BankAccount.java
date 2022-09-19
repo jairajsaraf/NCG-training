@@ -7,10 +7,16 @@ public class BankAccount {
     private String ln;
     private double bal;
 
-    public BankAccount(String fn, String ln, double bal){
+    public static final int CHECKING = 1;
+    public static final int SAVINGS = 2;
+
+    private int accountType;
+
+    public BankAccount(String fn, String ln, double bal, int accType){
         this.fn = fn;
         this.ln = ln;
         this.bal = bal;
+        this.accountType = accType;
     }
 
     // Branch == true if txn performed at a bank
@@ -31,4 +37,11 @@ public class BankAccount {
         return bal;
     }
 
+    public boolean isChecking(){
+        return accountType == CHECKING;
+    }
+
+    public boolean isSavings(){
+        return accountType == SAVINGS;
+    }
 }
