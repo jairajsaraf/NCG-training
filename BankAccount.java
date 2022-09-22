@@ -33,6 +33,9 @@ public class BankAccount {
     // Branch == true if txn performed at a bank
     // == false if txn performed at ATM
     public double withdraw(double amt, boolean branch){
+        if(amt > 500 && !branch){
+            throw new IllegalArgumentException();
+        }
         bal -= amt;
         return bal;
     }

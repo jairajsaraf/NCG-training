@@ -1,7 +1,10 @@
 package com.example.training;
 
 public class Test {
+    public static int n;
     public static void main(String[] args) {
-        System.out.println(123);
+        for(;;){
+            System.out.println(n++);
+        }
     }
 }
